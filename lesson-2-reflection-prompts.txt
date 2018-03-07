@@ -8,18 +8,30 @@ What value do you think it offers?
     repository. When commit is executed, these files are stored in the 
     repository. The working directory holds many other files (executables, ...)
     No control version is performed until the files are added to the staging
+    area. add command has to be executed to enable the files into the staging
     area.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+    Just only adding the files modified to the staging area and then commiting
+    the changes.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    There are two main situations:
+    * When a new feature is going to be implemented to try.
+    * When an experiment is ging to be implemented to see how it works.
 
 How do the diagrams help you visualize the branch structure?
+    To visualize and have a mind map of what is going on in the software.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    The merged version is pointing to two ancestors. Both set of files, 
+    including the changes are merged into only one set of files.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+    Git automatic: manual actions are minimized, so errors do.
+    Manual: sometimes is required to resolve conflicts. In this case, automatic
+    commits could cause a los of colateral errors.
