@@ -1,0 +1,2 @@
+When would you want to create a repository rather than keeping all your work local? 
+  To backup the work and allow others to collaborate in the project development.
