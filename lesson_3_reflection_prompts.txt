@@ -27,7 +27,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    It would be harder. Only on person at a time ca modiy a file, and merging
+    It would be harder. Only one person at a time can modify a file, and merging
     files could be almost impossible. Mechanisms to synchronize the work are
     mandatory. Alternatively, a different organization or way to work less
     flexible should be implemented, leading to a less productivity.
@@ -35,4 +35,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    To keep master update with the master original repository. Then I can 
+    modify my branch and merge from master when I need it.
